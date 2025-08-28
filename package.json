@@ -1,0 +1,20 @@
+{
+  "name": "midnight-glacier-drop",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "bin/cli.js",
+  "bin": {
+    "midnight": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@ledgerhq/hw-app-btc": "^10.10.1",
+    "@ledgerhq/hw-transport-node-hid": "^6.29.10",
+    "commander": "^14.0.0"
+  }
+}
